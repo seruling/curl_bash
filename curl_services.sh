@@ -10,7 +10,7 @@ do
     for i in {1..254}  ##append class-c to the target. 
     do
        echo "$target.$i:$j"
-       curl -k --head -m 5 http://$target.$i:$j/;
+       curl -k --head -m 5 http://$target.$i:$j/;  //get only header and 5 secs timeout set. if require, --head can be removed
     done
   done
 done
