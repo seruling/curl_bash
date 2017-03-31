@@ -1,2 +1,2 @@
 # curl_bash
-Using bash script to use curl to enumerate services on various port
+Simple usage of curl to enumerate services on various port, via bash script.
